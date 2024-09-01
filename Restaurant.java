@@ -2,12 +2,12 @@ package codeAlong1;
 
 public class Restaurant {
 
-    public Restaurant(Chef chef) {
+    public Restaurant(Chef myChef) {
     }
 
 
-    public void prepareOrders(Chef chef) {
+    public void prepareOrders(Chef myChef) {
         System.out.println("Taking orders");
-        chef.makePizza("pepperoni");
+        myChef.makePizza("pepperoni");
     }
 }
